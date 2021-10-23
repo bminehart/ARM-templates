@@ -14,7 +14,7 @@
         "name": "virtualNetwork1",
         "type": "Microsoft.Network/virtualNetworks",
         "apiVersion": "2020-11-01",
-        "location": "[resourceGroup().location]",
+        "location": "westus",
         "tags": {
             "displayName": "[parameters('vnetname')]"
         },
